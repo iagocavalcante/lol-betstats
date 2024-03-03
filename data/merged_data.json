@@ -4,75 +4,6 @@
     "date": "Sábado–27 de janeiro",
     "league": "CBLOL",
     "team1": {
-      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1670539056915_fluxo_escudo_w.png",
-      "score": "0",
-      "stats": {
-        "baron_1_5": "53.8%",
-        "deaths": "14.31",
-        "drag_4_5": "53.8%",
-        "drag_5_5": "23.1%",
-        "first_baron": "38.5%",
-        "first_blood": "38.5%",
-        "first_dragon": "53.8%",
-        "first_harold": "69.2%",
-        "first_lava": "53.8%",
-        "first_tower": "38.5%",
-        "games": "13",
-        "gold": "56.61K",
-        "inibitor": "84.6%",
-        "kills": "11.38",
-        "match_time": "32:03",
-        "team": "FX",
-        "total_barons": "1.62",
-        "total_dragons": "4.77",
-        "total_gold": "116.13K",
-        "total_kills": "25.77",
-        "total_towers": "13.08",
-        "tower_11_5": "69.2%",
-        "tower_12_5": "53.8%",
-        "towers": "5.69",
-        "winrate": "38.5%"
-      },
-      "team": "FLUXO"
-    },
-    "team2": {
-      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1671197541491_LOGO-KABUM-ESPORTS-2023-NEGATIVO-FUNDOPRETO.png",
-      "score": "1",
-      "stats": {
-        "baron_1_5": "38.5%",
-        "deaths": "11.46",
-        "drag_4_5": "53.8%",
-        "drag_5_5": "38.5%",
-        "first_baron": "46.2%",
-        "first_blood": "53.8%",
-        "first_dragon": "69.2%",
-        "first_harold": "15.4%",
-        "first_lava": "53.8%",
-        "first_tower": "61.5%",
-        "games": "13",
-        "gold": "59.68K",
-        "inibitor": "61.5%",
-        "kills": "14.08",
-        "match_time": "32:39",
-        "team": "KBM",
-        "total_barons": "1.46",
-        "total_dragons": "5",
-        "total_gold": "117.77K",
-        "total_kills": "25.54",
-        "total_towers": "12.92",
-        "tower_11_5": "84.6%",
-        "tower_12_5": "61.5%",
-        "towers": "6.62",
-        "winrate": "61.5%"
-      },
-      "team": "KaBuM! Esports"
-    }
-  },
-  {
-    "best_of": "melhor de 1",
-    "date": "Sábado–27 de janeiro",
-    "league": "CBLOL",
-    "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1670542079678_vks.png",
       "score": "1",
       "stats": {
@@ -346,7 +277,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–28 de janeiro",
+    "date": "Sábado–27 de janeiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FFURIA---black.png",
@@ -691,7 +622,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–3 de fevereiro",
+    "date": "Domingo–28 de janeiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
@@ -1036,7 +967,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–4 de fevereiro",
+    "date": "Sábado–3 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1631820575924_red-2021-worlds.png",
@@ -1381,7 +1312,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–10 de fevereiro",
+    "date": "Domingo–4 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643305707691_RXfNcFMU.png",
@@ -1726,7 +1657,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–11 de fevereiro",
+    "date": "Sábado–10 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1674657011011_pain_logo_white.png",
@@ -2071,7 +2002,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–17 de fevereiro",
+    "date": "Domingo–11 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1631820575924_red-2021-worlds.png",
@@ -2416,7 +2347,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–18 de fevereiro",
+    "date": "Sábado–17 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
@@ -2761,7 +2692,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–24 de fevereiro",
+    "date": "Domingo–18 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2FLogo-LOUD-Esports_Original.png",
@@ -3106,7 +3037,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–25 de fevereiro",
+    "date": "Sábado–24 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1671197541491_LOGO-KABUM-ESPORTS-2023-NEGATIVO-FUNDOPRETO.png",
@@ -3451,7 +3382,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Ontem–2 de março",
+    "date": "Domingo–25 de fevereiro",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
@@ -3796,19 +3727,19 @@
   },
   {
     "best_of": "",
-    "date": "Hoje–3 de março",
-    "league": "LCS Challengers",
+    "date": "Ontem–2 de março",
+    "league": "VCS",
     "team1": {
-      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1653466071326_J57Mp0y.png",
+      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1674646643550_TEAMWHALE_LOGO_VERSIONS_W_fullwhite-06-svg.png",
       "score": "",
       "stats": null,
-      "team": "Cincinnati Fear"
+      "team": "TEAM WHALES"
     },
     "team2": {
-      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1653465991163_rZ2wRdo.png",
+      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1656693717651_TS.png",
       "score": "",
       "stats": null,
-      "team": "AOE"
+      "team": "Team Secret"
     }
   },
   {
@@ -4089,7 +4020,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–9 de março",
+    "date": "Hoje–3 de março",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1670539056915_fluxo_escudo_w.png",
@@ -4434,7 +4365,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–10 de março",
+    "date": "Sábado–9 de março",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1670539056915_fluxo_escudo_w.png",
@@ -4779,7 +4710,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Sábado–16 de março",
+    "date": "Domingo–10 de março",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
@@ -5124,7 +5055,7 @@
   },
   {
     "best_of": "melhor de 1",
-    "date": "Domingo–17 de março",
+    "date": "Sábado–16 de março",
     "league": "CBLOL",
     "team1": {
       "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
@@ -5465,6 +5396,75 @@
         "winrate": "53.8%"
       },
       "team": "Liberty"
+    }
+  },
+  {
+    "best_of": "melhor de 1",
+    "date": "Domingo–17 de março",
+    "league": "CBLOL",
+    "team1": {
+      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1674657011011_pain_logo_white.png",
+      "score": "",
+      "stats": {
+        "baron_1_5": "53.8%",
+        "deaths": "11",
+        "drag_4_5": "53.8%",
+        "drag_5_5": "30.8%",
+        "first_baron": "69.2%",
+        "first_blood": "69.2%",
+        "first_dragon": "30.8%",
+        "first_harold": "30.8%",
+        "first_lava": "76.9%",
+        "first_tower": "69.2%",
+        "games": "13",
+        "gold": "62.96K",
+        "inibitor": "38.5%",
+        "kills": "16.23",
+        "match_time": "33:31",
+        "team": "PNG",
+        "total_barons": "1.69",
+        "total_dragons": "4.85",
+        "total_gold": "121.01K",
+        "total_kills": "27.31",
+        "total_towers": "12.15",
+        "tower_11_5": "69.2%",
+        "tower_12_5": "38.5%",
+        "towers": "7.46",
+        "winrate": "69.2%"
+      },
+      "team": "paiN Gaming"
+    },
+    "team2": {
+      "logo": "https://am-a.akamaihd.net/image?resize=140:&f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643056732785_INTZ_Logo_Principal_2022.png",
+      "score": "",
+      "stats": {
+        "baron_1_5": "46.2%",
+        "deaths": "17.31",
+        "drag_4_5": "61.5%",
+        "drag_5_5": "23.1%",
+        "first_baron": "30.8%",
+        "first_blood": "30.8%",
+        "first_dragon": "53.8%",
+        "first_harold": "69.2%",
+        "first_lava": "53.8%",
+        "first_tower": "23.1%",
+        "games": "13",
+        "gold": "53.87K",
+        "inibitor": "53.8%",
+        "kills": "7.92",
+        "match_time": "33:12",
+        "team": "ITZ",
+        "total_barons": "1.69",
+        "total_dragons": "4.85",
+        "total_gold": "117.73K",
+        "total_kills": "25.31",
+        "total_towers": "12.23",
+        "tower_11_5": "61.5%",
+        "tower_12_5": "38.5%",
+        "towers": "3",
+        "winrate": "7.7%"
+      },
+      "team": "INTZ"
     }
   }
 ]

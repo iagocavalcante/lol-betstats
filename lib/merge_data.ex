@@ -3,7 +3,7 @@ defmodule MergeData do
   # get matches and put stats in the same object for the teams that played
 
   @stats "data/Betstats.VictiiSpider_2024_03_03_01_14_29_548417_5ddf4270-d8fb-11ee-b201-7a41bf200175.json"
-  @matches "data/Betstats.LolEsportsSpider_2024_03_03_05_07_21_415545_e549d584-d91b-11ee-bc71-7a41bf200175.json"
+  @matches "data/Betstats.LolEsportsSpider_2024_03_03_15_28_09_232009_99a6407a-d972-11ee-9716-7a41bf200175.json"
 
   @team_abreviation %{
     "KaBuM! Esports" => "KBM",
