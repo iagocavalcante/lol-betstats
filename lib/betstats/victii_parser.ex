@@ -1,21 +1,9 @@
-defmodule Betstats do
-  use Crawly.Spider
-
-  @impl Crawly.Spider
-  def base_url(), do: "https://victti-dev.com.br/bet-stats?leagues=cblol"
-
-  @impl Crawly.Spider
-  def init() do
-    [start_urls: ["https://victti-dev.com.br/bet-stats?leagues=cblol"]]
-  end
-
-  @impl Crawly.Spider
-  def parse_item(response) do
-    # Parse response body to document
+defmodule Betstats.VictiiParser do
+  def parse(response) do
     {:ok, document} = Floki.parse_document(response.body)
 
-    Logger.info("Parsing item from #{response.request_url}")
-    # Create item (for pages where items exists)
+    :logger.info("Parsing item from #{response.request_url}")
+
     items =
       document
       |> Floki.find(".table")
@@ -26,7 +14,6 @@ defmodule Betstats do
         }
       end)
 
-    # organize items in a map to be returned, create a map for chunks of 25
     items =
       Enum.chunk_every(items, 25)
       |> Enum.map(fn [
@@ -85,8 +72,6 @@ defmodule Betstats do
         }
       end)
 
-    Logger.info("Parsed #{length(items)} items from #{response.request_url}")
-
-    %{items: items, requests: []}
+    items
   end
 end

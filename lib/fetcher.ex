@@ -1,6 +1,5 @@
 defmodule Fetcher do
-  alias Wallaby.Query
-  def fetch(request, client_options) do
+  def fetch(request, _client_options) do
     # Start new browser session, with some extra parameters
     {:ok, session} =
       Wallaby.start_session(
