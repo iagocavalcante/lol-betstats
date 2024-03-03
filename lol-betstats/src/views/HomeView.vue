@@ -12,9 +12,6 @@
         <div class="event--match__teams">
           <div class="event--match__teams--team-1">
             <div class="event--match__teams--team-1__info">
-              <h2>
-                <span class="name">{{ match.team1.team }}</span>
-              </h2>
               <img class="event--match__teams--team__info--logo" :src="match.team1.logo" alt="">
             </div>
             <div class="event--match__teams--stats">
@@ -31,9 +28,6 @@
           <hr class="separator">
           <div class="event--match__teams--team-2">
             <div class="event--match__teams--team-2__info">
-              <h2>
-                <span class="name">{{ match.team2.team }}</span>
-              </h2>
               <img class="event--match__teams--team__info--logo" :src="match.team2.logo" alt="">
             </div>
             <div class="event--match__teams--stats">
@@ -161,7 +155,6 @@ const labelAndValue = (date, team) => {
 .event--match__teams--team__info--logo {
   width: 100px;
   height: 100px;
-  margin-top: 20px;
 }
 
 .event--match__teams--team-2 {
