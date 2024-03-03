@@ -6,7 +6,9 @@ defmodule Betstats.LolesportsParser do
 
     dates = document |> Floki.find(".EventDate") |> Enum.map(&Floki.text/1)
 
-    match =
+    :logger.info("Parsed #{length(dates)} dates from #{response.request_url}")
+
+    matches =
       document
       |> Floki.find(".EventMatch")
       |> Enum.map(fn item ->
@@ -26,11 +28,21 @@ defmodule Betstats.LolesportsParser do
         }
       end)
 
-    # merge dates with match
-    items =
-      Enum.zip(dates, match) |> Enum.map(fn {date, match} -> Map.put(match, :date, date) end)
+    matches =
+      Enum.chunk_every(matches, 5)
+      |> Enum.zip(dates)
+      |> Enum.map(fn {matches, date} ->
+        Enum.map(matches, fn match -> Map.put(match, :date, date) end)
+      end)
+      |> List.flatten()
 
-    :logger.info("Parsed #{length(items)} items from #{response.request_url}")
-    items
+    :logger.info("Parsed #{length(matches)} dates from #{response.request_url}")
+
+    # merge dates with match
+    # items =
+    #   Enum.zip(dates, matches) |> Enum.map(fn {date, match} -> Map.put(match, :date, date) end)
+
+    :logger.info("Parsed #{length(matches)} items from #{response.request_url}")
+    matches
   end
 end

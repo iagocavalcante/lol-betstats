@@ -3,7 +3,7 @@ defmodule MergeData do
   # get matches and put stats in the same object for the teams that played
 
   @stats "data/Betstats.VictiiSpider_2024_03_03_01_14_29_548417_5ddf4270-d8fb-11ee-b201-7a41bf200175.json"
-  @matches "data/Betstats.LolEsportsSpider_2024_03_03_01_39_33_042257_dc069eca-d8fe-11ee-ab65-7a41bf200175.json"
+  @matches "data/Betstats.LolEsportsSpider_2024_03_03_05_07_21_415545_e549d584-d91b-11ee-bc71-7a41bf200175.json"
 
   @team_abreviation %{
     "KaBuM! Esports" => "KBM",
@@ -15,7 +15,7 @@ defmodule MergeData do
     "Vivo Keyd Stars" => "VKS",
     "LOS" => "LOS",
     "LOUD" => "LLL",
-    "Liberty" => "LRB"
+    "Liberty" => "LBR"
   }
 
   def merge() do
