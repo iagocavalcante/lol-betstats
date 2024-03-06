@@ -15,14 +15,16 @@ defmodule Betstats.VictiiParser do
       end)
 
     items =
-      Enum.chunk_every(items, 25)
+      Enum.chunk_every(items, 28)
       |> Enum.map(fn [
                        team,
                        games,
                        winrate,
+                       winrate_blue,
+                       winrate_red,
                        match_time,
                        first_blood,
-                       first_lava,
+                       first_larva,
                        first_harold,
                        first_tower,
                        first_dragon,
@@ -33,6 +35,7 @@ defmodule Betstats.VictiiParser do
                        towers,
                        total_gold,
                        total_kills,
+                       total_larvas,
                        total_towers,
                        total_dragons,
                        total_barons,
@@ -47,9 +50,11 @@ defmodule Betstats.VictiiParser do
           team: team.data,
           games: games.data,
           winrate: winrate.data,
+          winrate_blue: winrate_blue.data,
+          winrate_red: winrate_red.data,
           match_time: match_time.data,
           first_blood: first_blood.data,
-          first_lava: first_lava.data,
+          first_lava: first_larva.data,
           first_harold: first_harold.data,
           first_tower: first_tower.data,
           first_dragon: first_dragon.data,
@@ -60,6 +65,7 @@ defmodule Betstats.VictiiParser do
           towers: towers.data,
           total_gold: total_gold.data,
           total_kills: total_kills.data,
+          total_larvas: total_larvas.data,
           total_towers: total_towers.data,
           total_dragons: total_dragons.data,
           total_barons: total_barons.data,

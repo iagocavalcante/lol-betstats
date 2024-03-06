@@ -2,8 +2,8 @@ defmodule MergeData do
   # based on two json files, merge them into one with the following rules:
   # get matches and put stats in the same object for the teams that played
 
-  @stats "data/Betstats.VictiiSpider_2024_03_03_01_14_29_548417_5ddf4270-d8fb-11ee-b201-7a41bf200175.json"
-  @matches "data/Betstats.LolEsportsSpider_2024_03_03_15_28_09_232009_99a6407a-d972-11ee-9716-7a41bf200175.json"
+  @stats "data/Betstats.VictiiSpider_2024_03_06_00_12_08_026131_26b62502-db4e-11ee-90f7-7a41bf200175.json"
+  @matches "data/Betstats.LolEsportsSpider_2024_03_06_00_01_56_611288_b8bd1a84-db4c-11ee-b240-7a41bf200175.json"
 
   @team_abreviation %{
     "KaBuM! Esports" => "KBM",
@@ -54,8 +54,8 @@ defmodule MergeData do
         }
       end)
 
-    IO.inspect(data_structure)
+    root_path = Path.expand("./lol-betstats/src/assets/merged_data.json")
 
-    File.write!("data/merged_data.json", Jason.encode!(data_structure))
+    File.write!(root_path, Jason.encode!(data_structure))
   end
 end
