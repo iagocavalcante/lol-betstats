@@ -30,7 +30,7 @@
               <img class="event--match__teams--team__info--logo" :src="match.team1.logo" alt="">
             </div>
             <div class="event--match__teams--stats">
-              <div class="stats__games" v-for="stat in labelAndValue(match.date, 'team1')" :key="stat.team">
+              <div class="stats__games" v-for="stat in labelAndValue(match.date, 'team1')" :key="stat.team" :title="stat.tooltip">
                 <span class="stats__games--label">
                   {{ stat.label }}
                 </span>
@@ -80,31 +80,31 @@ const labelAndValue = (date, team) => {
   const match_find = toRaw(match)
 
   return [
-    { label: 'Games', value: match_find[team].stats.games },
-    { label: 'Winrate', value: match_find[team].stats.winrate },
-    { label: 'Winrate blue side', value: match_find[team].stats.winrate_blue },
-    { label: 'Winrate red side', value: match_find[team].stats.winrate_red },
-    { label: 'Kills', value: match_find[team].stats.kills },
-    { label: 'Deaths', value: match_find[team].stats.deaths },
-    { label: 'Gold', value: match_find[team].stats.gold },
-    { label: 'Total Kills', value: match_find[team].stats.total_kills },
-    { label: 'Total Gold', value: match_find[team].stats.total_gold },
-    { label: 'Total larvas', value: match_find[team].stats.total_larvas },
-    { label: 'Total Towers', value: match_find[team].stats.total_towers },
-    { label: 'Total Barons', value: match_find[team].stats.total_barons },
-    { label: 'Total Dragons', value: match_find[team].stats.total_dragons },
-    { label: 'First Blood', value: match_find[team].stats.first_blood },
-    { label: 'First Dragon', value: match_find[team].stats.first_dragon },
-    { label: 'First Harold', value: match_find[team].stats.first_harold },
-    { label: 'First Lava', value: match_find[team].stats.first_lava },
-    { label: 'First Tower', value: match_find[team].stats.first_tower },
-    { label: 'First Baron', value: match_find[team].stats.first_baron },
-    { label: 'Inibitor', value: match_find[team].stats.inibitor },
-    { label: 'Tower 11.5', value: match_find[team].stats.tower_11_5 },
-    { label: 'Tower 12.5', value: match_find[team].stats.tower_12_5 },
-    { label: 'Drag 4.5', value: match_find[team].stats.drag_4_5 },
-    { label: 'Drag 5.5', value: match_find[team].stats.drag_5_5 },
-    { label: 'Match Time', value: match_find[team].stats.match_time }
+    { label: 'Games', value: match_find[team].stats.games, tooltip: "Partidas jogadas" },
+    { label: 'Winrate', value: match_find[team].stats.winrate, tooltip: "Winrate" },
+    { label: 'Winrate blue side', value: match_find[team].stats.winrate_blue, tooltip: "Porcentagem de vitória no lado azul" },
+    { label: 'Winrate red side', value: match_find[team].stats.winrate_red, tooltip: "Porcentagem de vitória no lado vermelho" },
+    { label: 'Kills', value: match_find[team].stats.kills, tooltip: "Média de Abates do time por partida" },
+    { label: 'Deaths', value: match_find[team].stats.deaths, tooltip: "Média de Mortes do time por partida" },
+    { label: 'Gold', value: match_find[team].stats.gold, tooltip: "Média de Ouro do time por partida" },
+    { label: 'Total Kills', value: match_find[team].stats.total_kills, tooltip: "Média do Total de Abates por partida" },
+    { label: 'Total Gold', value: match_find[team].stats.total_gold, tooltip: "Média do Total de Ouro por partida" },
+    { label: 'Total larvas', value: match_find[team].stats.total_larvas, tooltip: "Média do Total de Vastilarvas por partida" },
+    { label: 'Total Towers', value: match_find[team].stats.total_towers, tooltip: "Média do Total de Torres por partida" },
+    { label: 'Total Barons', value: match_find[team].stats.total_barons, tooltip: "Média do Total de Barões por partida" },
+    { label: 'Total Dragons', value: match_find[team].stats.total_dragons, tooltip: "Médoa do Total de Dragões por partida" },
+    { label: 'First Blood', value: match_find[team].stats.first_blood, tooltip: "Porcentagem de vezes que o time pega o primeiro abate" },
+    { label: 'First Dragon', value: match_find[team].stats.first_dragon, tooltip: "Porcentagem de vezes que o time pega o primeiro dragão" },
+    { label: 'First Harold', value: match_find[team].stats.first_harold, tooltip: "Porcentagem de vezes que o time pega o primeiro Heraldo" },
+    { label: 'First Lava', value: match_find[team].stats.first_lava, tooltip: "Porcentagem de vezes que o time pega o primeiro Arauto" },
+    { label: 'First Tower', value: match_find[team].stats.first_tower, tooltip: "Porcentagem de vezes que o time pega o primeiro Torre" },
+    { label: 'First Baron', value: match_find[team].stats.first_baron, tooltip: "Porcentagem de vezes que o time pega o primeiro Barão" },
+    { label: 'Inibitor', value: match_find[team].stats.inibitor, tooltip: "Porcentagem de vezes que destroem mais de 1.5 inibidores por partida" },
+    { label: 'Tower 11.5', value: match_find[team].stats.tower_11_5, tooltip: "Porcentagem de vezes que caem mais de 11.5 torres por partida" },
+    { label: 'Tower 12.5', value: match_find[team].stats.tower_12_5, tooltip: "Porcentagem de vezes que caem mais de 12.5 torres por partida" },
+    { label: 'Drag 4.5', value: match_find[team].stats.drag_4_5, tooltip: "Porcentagem de vezes que abatem mais de 4.5 dragões por partida" },
+    { label: 'Drag 5.5', value: match_find[team].stats.drag_5_5, tooltip: "Porcentagem de vezes que abatem mais de 5.5 dragões por partida" },
+    { label: 'Match Time', value: match_find[team].stats.match_time, tooltip: "Média de tempo de partida" },
   ]
 }
 
